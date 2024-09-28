@@ -3,12 +3,17 @@ import ToggleButton from "./toggleButton/toggleButton";
 
 
 const Sidebar = () => {
+    const [open, setOpen] = useState(false)
+    const variants = {
+        open:
+        closed:
+    }
     return (
         <div className="sidebar">
             <div className="bg">
                 Links
             </div>
-            <ToggleButton />
+            <ToggleButton setOpen={setOpen}/>
         </div>
     )
 }
