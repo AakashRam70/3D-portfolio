@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Test from "./Test";
 const App = () => {
   return <div>
-    {/* <section>
+    <section>
       <Navbar />
     </section>
     <section>Parallax</section>
@@ -11,9 +11,9 @@ const App = () => {
     <section>Parallax</section>
     <section>Portfolio2</section>
     <section>Portfolio3</section>
-    <section>Contact</section> */}
-    <Test />
-    <Test />
+    <section>Contact</section>
+    {/* <Test />
+    <Test /> */}
   </div>;
 };
 
