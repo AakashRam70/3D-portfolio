@@ -7,17 +7,17 @@ const Sidebar = () => {
     const [open, setOpen] = useState(false)
     const variants = {
         open: {
-            clipPath; circle
+            clipPath: "circle(1200px at 50px 50px)"
         },
         closed: {
             clipPath: "circle(30px at 50px 50px)",
-            transition:{
-                delay:0.5;
-                type:"spring",
+            transition: {
+                delay: 0.5,
+                type: "spring",
                 stiffness: 400,
-                damping:40,
+                damping: 40,
             }
-            }
+        }
     }
     return (
         <div className="sidebar" animate={open ? "open" : "closed"}>
