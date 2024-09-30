@@ -14,7 +14,6 @@ const Sidebar = () => {
                 restDelta: 2
             }
         },
-        
         closed: {
             clipPath: "circle(30px at 50px 50px)",
             transition: {
