@@ -29,9 +29,9 @@ const Links = () => {
     const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
     return (
         <motion.div className='links' variants={variants}>{items.map((item) => (
-            <a href={`#${item}`} key={item} variants={itemVariants}>
+            <motion.a href={`#${item}`} key={item} variants={itemVariants}>
                 {item}
-            </a>
+            </motion.a>
         ))}</motion.div>
     )
 }
