@@ -2,8 +2,12 @@ import "./hero.scss";
 
 const Hero = () => {
     return (
-        <div className="hero">Hero</div>
+        <div className="hero">
+            <div className="imageContainer">
+                <img src="/hero.png" alt="" />
+            </div>
+        </div>
     )
 }
 
-export default Hero
+export default Hero;
