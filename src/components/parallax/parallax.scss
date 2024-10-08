@@ -16,6 +16,7 @@
         width: 100%;
         height: 100%;
         background-size: cover;
+        z-index: 3;
     }
 
     .planets {
@@ -24,6 +25,7 @@
         width: 100%;
         height: 100%;
         background-size: cover;
+        z-index: 2;
     }
 
     .stars {
@@ -32,6 +34,7 @@
         width: 100%;
         height: 100%;
         background-size: cover;
+        z-index: 1;
     }
 
 }
