@@ -76,9 +76,22 @@
             flex-direction: column;
             justify-content: space-between;
 
+            p {
+                font-size: 18px;
+                color: gray;
+                /* Ensuring p tag within .box aligns left */
+                text-align: left;
+            }
+
+            h2 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+
             button {
                 padding: 10px;
-                border-color: orange;
+                background-color: orange;
+                color: white;
                 border: none;
                 cursor: pointer;
             }
