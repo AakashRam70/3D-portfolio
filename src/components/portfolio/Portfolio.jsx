@@ -43,8 +43,10 @@ const Single = ({ item }) => {
         <section ref={ref}>
             <div className="container">
                 <div className="wrapper">
-                    <img src={item.img} alt="" />
-                    <motion.div className="textContainer" style={{ y }}>
+                    <div className="imageContainer">
+                        <img src={item.img} alt="" />
+                    </div>
+                    <motion.div className="textContainer">
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>See Demo</button>

@@ -29,19 +29,44 @@
             margin: auto;
             display: flex;
             gap: 50px;
+            align-items: center;
+            justify-content: center;
 
-            img {
+            .imageContainer {
                 flex: 1;
                 height: 50%;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
-                border-radius: 10px;
-                cursor: pointer;
-                background-size: cover;
-                background-repeat: no-repeat;
+
             }
 
             .textContainer {
                 flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                h2 {
+                    font-size: 72px;
+                }
+
+                p {
+                    color: gray;
+                    font-size: 20px;
+                }
+
+                button {
+                    border-radius: 10xp;
+                    background-color: orange;
+                    border: none;
+                    padding: 10px;
+                    width: 200px;
+                    cursor: pointer;
+                }
             }
         }
     }
