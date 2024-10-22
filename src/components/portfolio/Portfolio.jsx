@@ -11,7 +11,7 @@ const items = [
     },
     {
         id: 2,
-        title: "Next Js",
+        title: "Next Js Developer",
         img: "https://images.pexels.com/photos/18463144/pexels-photo-18463144/free-photo-of-analog-camera-with-films.jpeg?auto=compress&cs=tinysrgb&w=400",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ab asperiores assumenda tenetur atque recusandae, sunt hic nam voluptate beatae inventore dolor quod, blanditiis facilis ea expedita ex nulla at."
     },
