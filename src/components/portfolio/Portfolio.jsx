@@ -21,12 +21,6 @@ const items = [
         img: "https://images.pexels.com/photos/6506698/pexels-photo-6506698.jpeg?auto=compress&cs=tinysrgb&w=400",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ab asperiores assumenda tenetur atque recusandae, sunt hic nam voluptate beatae inventore dolor quod, blanditiis facilis ea expedita ex nulla at."
     },
-    {
-        id: 4,
-        title: "Node JS",
-        img: "https://images.pexels.com/photos/20693451/pexels-photo-20693451/free-photo-of-canon-eos-slr-cameras.jpeg?auto=compress&cs=tinysrgb&w=400",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ab asperiores assumenda tenetur atque recusandae, sunt hic nam voluptate beatae inventore dolor quod, blanditiis facilis ea expedita ex nulla at."
-    }
 ]
 
 const Single = ({ item }) => {
