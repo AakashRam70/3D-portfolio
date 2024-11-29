@@ -17,7 +17,7 @@ const items = [
     },
     {
         id: 3,
-        title: "Javascript Title",
+        title: "Javascript Developer",
         img: "https://images.pexels.com/photos/6506698/pexels-photo-6506698.jpeg?auto=compress&cs=tinysrgb&w=400",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ab asperiores assumenda tenetur atque recusandae, sunt hic nam voluptate beatae inventore dolor quod, blanditiis facilis ea expedita ex nulla at."
     },
